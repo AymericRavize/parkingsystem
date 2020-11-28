@@ -22,7 +22,7 @@ public class InteractiveShell {
 
         while(continueApp){
             loadMenu();
-            int option = inputReaderUtil.readSelection();
+            int option = inputReaderUtil.readSelection();//déclarer dans la boucle ?
             switch(option){
                 case 1: {
                     parkingService.processIncomingVehicle();

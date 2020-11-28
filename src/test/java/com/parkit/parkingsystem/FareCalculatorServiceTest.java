@@ -30,7 +30,7 @@ public class FareCalculatorServiceTest {
 
     @Test
     public void calculateFareCar(){
-        Date inTime = new Date();
+        Date inTime = new Date();// regrouper ???
         inTime.setTime( System.currentTimeMillis() - (  60 * 60 * 1000) );
         Date outTime = new Date();
         ParkingSpot parkingSpot = new ParkingSpot(1, ParkingType.CAR,false);
@@ -81,7 +81,7 @@ public class FareCalculatorServiceTest {
         ticket.setParkingSpot(parkingSpot);
         assertThrows(IllegalArgumentException.class, () -> fareCalculatorService.calculateFare(ticket));
     }
-
+// regrouper les forction en meten des tableau de valeur a tester et pas des multiplication inutil si cela ne change pas dans le calcul
     @Test
     public void calculateFareBikeWithLessThanOneHourParkingTime(){
         Date inTime = new Date();
@@ -99,8 +99,19 @@ public class FareCalculatorServiceTest {
     @Test
     public void calculateFareCarWithLessThanOneHourParkingTime(){
         Date inTime = new Date();
-        inTime.setTime( System.currentTimeMillis() - (  45 * 60 * 1000) );//45 minutes parking time should give 3/4th parking fare
-        Date outTime = new Date();
+        Date outTime=new Date(); 
+        inTime.setTime(outTime.getTime() - (45 * 60 * 1000));
+
+        System.out.println();
+        //outTime.setMinutes(inTime.getMinutes() - 45);
+        //System.out.println(inTime.getMinutes() - 45);
+       // System.out.println(inTime.getDate() + "//" + outTime.getDate());
+       // System.out.println(inTime.getDay() + "//" + outTime.getDay());
+        //System.out.println(inTime.getHours() + "//" + outTime.getHours());
+        //System.out.println(inTime.getMinutes() + "//" + outTime.getMinutes());
+        //System.out.println(inTime.getSeconds() + "//" + outTime.getSeconds());
+        //inTime.setTime( System.currentTimeMillis() - (  45 * 60 * 1000) );//45 minutes parking time should give 3/4th parking fare
+        
         ParkingSpot parkingSpot = new ParkingSpot(1, ParkingType.CAR,false);
 
         ticket.setInTime(inTime);

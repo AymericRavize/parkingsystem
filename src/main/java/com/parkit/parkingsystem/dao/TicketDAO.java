@@ -49,7 +49,9 @@ public class TicketDAO {
             //ID, PARKING_NUMBER, VEHICLE_REG_NUMBER, PRICE, IN_TIME, OUT_TIME)
             ps.setString(1,vehicleRegNumber);
             ResultSet rs = ps.executeQuery();
+            System.out.println("");//
             if(rs.next()){
+            	System.out.println(rs.getInt(1));//
                 ticket = new Ticket();
                 ParkingSpot parkingSpot = new ParkingSpot(rs.getInt(1), ParkingType.valueOf(rs.getString(6)),false);
                 ticket.setParkingSpot(parkingSpot);
@@ -62,7 +64,7 @@ public class TicketDAO {
             dataBaseConfig.closeResultSet(rs);
             dataBaseConfig.closePreparedStatement(ps);
         }catch (Exception ex){
-            logger.error("Error fetching next available slot",ex);
+            logger.error("Error fetching next available slot",ex);        
         }finally {
             dataBaseConfig.closeConnection(con);
             return ticket;
@@ -86,4 +88,29 @@ public class TicketDAO {
         }
         return false;
     }
+    // recuperation du nombre de tyquet par d'une plaque d imatriculation
+    public int getNbTiket(String vehicleRegNumber) {
+    	
+    	int nbTiket=0;
+    	Connection con = null;
+        try {
+            con = dataBaseConfig.getConnection();
+            PreparedStatement ps = con.prepareStatement(DBConstants.GET_NB_TIKET);           
+            ps.setString(1,vehicleRegNumber);
+            ResultSet rs = ps.executeQuery();
+            if(rs.next()){              
+            	nbTiket = rs.getInt(1);              
+            }
+            dataBaseConfig.closeResultSet(rs);
+            dataBaseConfig.closePreparedStatement(ps);
+        }catch (Exception ex){
+            logger.error("Error fetching next available slot",ex);
+        }finally {
+            dataBaseConfig.closeConnection(con);
+            return nbTiket;
+        }
+      	
+    }
+    
+    
 }

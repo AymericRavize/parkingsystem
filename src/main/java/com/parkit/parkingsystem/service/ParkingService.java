@@ -20,6 +20,8 @@ public class ParkingService {
     private InputReaderUtil inputReaderUtil;
     private ParkingSpotDAO parkingSpotDAO;
     private  TicketDAO ticketDAO;
+    public Date inTime;
+    public Date outTime;
 
     public ParkingService(InputReaderUtil inputReaderUtil, ParkingSpotDAO parkingSpotDAO, TicketDAO ticketDAO){
         this.inputReaderUtil = inputReaderUtil;
@@ -27,6 +29,7 @@ public class ParkingService {
         this.ticketDAO = ticketDAO;
     }
 
+    
     public void processIncomingVehicle() {
         try{
             ParkingSpot parkingSpot = getNextParkingNumberIfAvailable();
@@ -35,7 +38,7 @@ public class ParkingService {
                 parkingSpot.setAvailable(false);
                 parkingSpotDAO.updateParking(parkingSpot);//allot this parking space and mark it's availability as false
 
-                Date inTime = new Date();
+                inTime = new Date();//getDate(); //new Date();
                 Ticket ticket = new Ticket();
                 //ID, PARKING_NUMBER, VEHICLE_REG_NUMBER, PRICE, IN_TIME, OUT_TIME)
                 //ticket.setId(ticketID);
@@ -68,14 +71,17 @@ public class ParkingService {
             if(parkingNumber > 0){
                 parkingSpot = new ParkingSpot(parkingNumber,parkingType, true);
             }else{
-                throw new Exception("Error fetching parking number from DB. Parking slots might be full");
+                throw new Exception("Error fetching parking number from DB. Parking slots might be full");//ici?
             }
         }catch(IllegalArgumentException ie){
             logger.error("Error parsing user input for type of vehicle", ie);
         }catch(Exception e){
             logger.error("Error fetching next available parking slot", e);
         }
-        return parkingSpot;
+        finally{
+        	return parkingSpot;
+        }
+        
     }
 
     private ParkingType getVehichleType(){
@@ -101,7 +107,7 @@ public class ParkingService {
         try{
             String vehicleRegNumber = getVehichleRegNumber();
             Ticket ticket = ticketDAO.getTicket(vehicleRegNumber);
-            Date outTime = new Date();
+            outTime = new Date();
             ticket.setOutTime(outTime);
             fareCalculatorService.calculateFare(ticket);
             if(ticketDAO.updateTicket(ticket)) {
