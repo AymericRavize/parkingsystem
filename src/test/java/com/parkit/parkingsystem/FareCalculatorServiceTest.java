@@ -17,20 +17,44 @@ public class FareCalculatorServiceTest {
 
     private static FareCalculatorService fareCalculatorService;
     private Ticket ticket;
-
+	/**
+	 * 
+	 * @author OpenClassRoom
+	 * @version V1.0
+	 * @since V1.0
+	 * 
+	 * @see this function create object fareCalculatorService befor all test
+	 *                  
+	 */    
     @BeforeAll
     private static void setUp() {
         fareCalculatorService = new FareCalculatorService();
     }
-
+	/**
+	 * 
+	 * @author OpenClassRoom
+	 * @version V1.0
+	 * @since V1.0
+	 * 
+	 * @see this function create one object Ticket befor each test
+	 *                  
+	 */ 
     @BeforeEach
     private void setUpPerTest() {
         ticket = new Ticket();
     }
-
+	/**
+	 * 
+	 * @author OpenClassRoom
+	 * @version V1.0
+	 * @since V1.0
+	 * 
+	 * @see this function test if a price of tiket is corecte after 1hour for a car
+	 *                  
+	 */ 
     @Test
     public void calculateFareCar(){
-        Date inTime = new Date();// regrouper ???
+        Date inTime = new Date();
         inTime.setTime( System.currentTimeMillis() - (  60 * 60 * 1000) );
         Date outTime = new Date();
         ParkingSpot parkingSpot = new ParkingSpot(1, ParkingType.CAR,false);
@@ -41,7 +65,15 @@ public class FareCalculatorServiceTest {
         fareCalculatorService.calculateFare(ticket);
         assertEquals(ticket.getPrice(), Fare.CAR_RATE_PER_HOUR);
     }
-
+	/**
+	 * 
+	 * @author OpenClassRoom
+	 * @version V1.0
+	 * @since V1.0
+	 * 
+	 * @see this function test if a price of tiket is corecte after 1hour for a bike
+	 *                  
+	 */
     @Test
     public void calculateFareBike(){
         Date inTime = new Date();
@@ -55,7 +87,15 @@ public class FareCalculatorServiceTest {
         fareCalculatorService.calculateFare(ticket);
         assertEquals(ticket.getPrice(), Fare.BIKE_RATE_PER_HOUR);
     }
-
+	/**
+	 * 
+	 * @author OpenClassRoom
+	 * @version V1.0
+	 * @since V1.0
+	 * 
+	 * @see this function test a eror if a type is null
+	 *                  
+	 */
     @Test
     public void calculateFareUnkownType(){
         Date inTime = new Date();
@@ -68,7 +108,15 @@ public class FareCalculatorServiceTest {
         ticket.setParkingSpot(parkingSpot);
         assertThrows(NullPointerException.class, () -> fareCalculatorService.calculateFare(ticket));
     }
-
+	/**
+	 * 
+	 * @author OpenClassRoom
+	 * @version V1.0
+	 * @since V1.0
+	 * 
+	 * @see this function test a eror if a time d enter est superieur a la sorti
+	 *                  
+	 */
     @Test
     public void calculateFareBikeWithFutureInTime(){
         Date inTime = new Date();
@@ -81,7 +129,15 @@ public class FareCalculatorServiceTest {
         ticket.setParkingSpot(parkingSpot);
         assertThrows(IllegalArgumentException.class, () -> fareCalculatorService.calculateFare(ticket));
     }
-// regrouper les forction en meten des tableau de valeur a tester et pas des multiplication inutil si cela ne change pas dans le calcul
+	/**
+	 * 
+	 * @author OpenClassRoom
+	 * @version V1.0
+	 * @since V1.0
+	 * 
+	 * @see this function test if a price of tiket is corecte after 45 mn for a bike
+	 *                  
+	 */
     @Test
     public void calculateFareBikeWithLessThanOneHourParkingTime(){
         Date inTime = new Date();
@@ -95,22 +151,20 @@ public class FareCalculatorServiceTest {
         fareCalculatorService.calculateFare(ticket);
         assertEquals((0.75 * Fare.BIKE_RATE_PER_HOUR), ticket.getPrice() );
     }
-
+	/**
+	 * 
+	 * @author OpenClassRoom
+	 * @version V1.0
+	 * @since V1.0
+	 * 
+	 * @see this function test if a price of tiket is corecte after 45 mn for a car
+	 *                  
+	 */
     @Test
     public void calculateFareCarWithLessThanOneHourParkingTime(){
         Date inTime = new Date();
         Date outTime=new Date(); 
         inTime.setTime(outTime.getTime() - (45 * 60 * 1000));
-
-        System.out.println();
-        //outTime.setMinutes(inTime.getMinutes() - 45);
-        //System.out.println(inTime.getMinutes() - 45);
-       // System.out.println(inTime.getDate() + "//" + outTime.getDate());
-       // System.out.println(inTime.getDay() + "//" + outTime.getDay());
-        //System.out.println(inTime.getHours() + "//" + outTime.getHours());
-        //System.out.println(inTime.getMinutes() + "//" + outTime.getMinutes());
-        //System.out.println(inTime.getSeconds() + "//" + outTime.getSeconds());
-        //inTime.setTime( System.currentTimeMillis() - (  45 * 60 * 1000) );//45 minutes parking time should give 3/4th parking fare
         
         ParkingSpot parkingSpot = new ParkingSpot(1, ParkingType.CAR,false);
 
@@ -120,7 +174,15 @@ public class FareCalculatorServiceTest {
         fareCalculatorService.calculateFare(ticket);
         assertEquals( (0.75 * Fare.CAR_RATE_PER_HOUR) , ticket.getPrice());
     }
-
+	/**
+	 * 
+	 * @author OpenClassRoom
+	 * @version V1.0
+	 * @since V1.0
+	 * 
+	 * @see this function test if a price of tiket is corecte after 1day for a car
+	 *                  
+	 */
     @Test
     public void calculateFareCarWithMoreThanADayParkingTime(){
         Date inTime = new Date();

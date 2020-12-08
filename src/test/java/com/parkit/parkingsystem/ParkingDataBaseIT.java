@@ -155,9 +155,7 @@ public class ParkingDataBaseIT {
         	
         }
         
-       assertEquals(null,parkingSpot);
-    	
-             
+       assertEquals(null,parkingSpot);    	            
         
     }
 

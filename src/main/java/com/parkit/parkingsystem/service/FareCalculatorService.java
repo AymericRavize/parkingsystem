@@ -1,10 +1,16 @@
 package com.parkit.parkingsystem.service;
 
-//import com.parkit.parkingsystem.cette;
 import com.parkit.parkingsystem.constants.Fare;
 import com.parkit.parkingsystem.dao.TicketDAO;
 import com.parkit.parkingsystem.model.Ticket;
-
+/**
+ * 
+ * this class allows to calculate the price of the tickets 
+ * 
+ * @author OpenClassRoom ,Ravizé Aymeric
+ * @version V1.1
+ *
+ */
 public class FareCalculatorService {
 	/**
 	 * 
@@ -12,7 +18,7 @@ public class FareCalculatorService {
 	 * @version V1.0
 	 * @since V1.1
 	 * 
-	 * @see cette fontion permet de calculer le prix a payer en fonction du type de vehicule ,de la recurence de location de lutilisateur et du temps de stasionement
+	 * @see this function allows to calculate the price to pay in function of the vehicule type, the recurrence of use of the service and the parking time of the user
 	 *                  
 	 */
     public void calculateFare(Ticket ticket){
@@ -21,14 +27,14 @@ public class FareCalculatorService {
         }
         TicketDAO td = new TicketDAO();
 
-        double duration = (ticket.getOutTime().getTime() - ticket.getInTime().getTime());// soustrai les 2 date  
+        double duration = (ticket.getOutTime().getTime() - ticket.getInTime().getTime());// subtract both dates  
 
-        duration= duration/(1000*60*60); // converti le forma en heure
+        duration= duration/(1000*60*60); // convert the format in hours
 
-        // si plus de 30 minute
+        // if more than 30 minutes
         if(duration>=0.5) {
-        	if(td.getNbTiket(ticket.getVehicleRegNumber())>1) { // si recurent
-        		duration=duration*0.95;// reduction de  5%
+        	if(td.getNbTiket(ticket.getVehicleRegNumber())>1) { // if recurrent
+        		duration=duration*0.95;// discount of  5%
         	}
         	System.out.println(ticket.getParkingSpot().getParkingType());
 	            switch (ticket.getParkingSpot().getParkingType()){

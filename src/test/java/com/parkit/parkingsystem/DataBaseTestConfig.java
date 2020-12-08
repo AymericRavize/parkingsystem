@@ -4,19 +4,62 @@ import com.parkit.parkingsystem.config.DataBaseConfig;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.io.InputStream;
 import java.sql.*;
+import java.util.Properties;
 
 public class DataBaseTestConfig extends DataBaseConfig {
 
     private static final Logger logger = LogManager.getLogger("DataBaseTestConfig");
-
+	/**
+	 * 
+	 * @author OpenClassRoom
+	 * @version V1.0
+	 * @since V1.0
+	 * 
+	 * @see this function opens database connection by calling a configuration document that countain the identification informations related to this one
+	 *                  
+	 */
     public Connection getConnection() throws ClassNotFoundException, SQLException {
         logger.info("Create DB connection");
         Class.forName("com.mysql.cj.jdbc.Driver");
-        return DriverManager.getConnection(
-                "jdbc:mysql://localhost:3306/test?zeroDateTimeBehavior=CONVERT_TO_NULL&serverTimezone=UTC","root","rootroot");
+        String url="";
+        String username="";
+        String password="";
+        
+        final Properties prop = new Properties();
+        InputStream input = null;
+        try {
+			input = new FileInputStream("src/test/java/resources/TestConfig.properties");
+			prop.load(input);
+	        url =prop.getProperty("db.url");
+	        username =prop.getProperty("db.username");
+	        password =prop.getProperty("db.password");
+			
+		} catch (IOException ex) {
+			logger.error("Error file or file data",ex);
+		}finally {
+			if (input != null) {
+				try {
+					input.close();
+				} catch (final IOException e) {
+					logger.error("Error close file",e);
+				}
+			}
+		}
+        return DriverManager.getConnection(url,username,password);
     }
-
+	/**
+	 * 
+	 * @author OpenClassRoom
+	 * @version V1.0
+	 * @since V1.0
+	 * 
+	 * @see this function closes Data Base connection
+	 *                  
+	 */
     public void closeConnection(Connection con){
         if(con!=null){
             try {
@@ -27,7 +70,15 @@ public class DataBaseTestConfig extends DataBaseConfig {
             }
         }
     }
-
+	/**
+	 * 
+	 * @author OpenClassRoom
+	 * @version V1.0
+	 * @since V1.0
+	 * 
+	 * @see this function closes a prepared request
+	 *                  
+	 */
     public void closePreparedStatement(PreparedStatement ps) {
         if(ps!=null){
             try {
@@ -38,7 +89,15 @@ public class DataBaseTestConfig extends DataBaseConfig {
             }
         }
     }
-
+	/**
+	 * 
+	 * @author OpenClassRoom
+	 * @version V1.0
+	 * @since V1.0
+	 * 
+	 * @see this function closes a result of request
+	 *                  
+	 */
     public void closeResultSet(ResultSet rs) {
         if(rs!=null){
             try {

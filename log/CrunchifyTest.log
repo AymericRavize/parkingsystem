@@ -34955,3 +34955,925 @@ java.lang.Exception: Error fetching parking number from DB. Parking slots might 
 2020-12-03 16:07:40 [main] INFO  DataBaseConfig:45 - Closing Result Set
 2020-12-03 16:07:40 [main] INFO  DataBaseConfig:34 - Closing Prepared Statement
 2020-12-03 16:07:40 [main] INFO  DataBaseConfig:23 - Closing DB connection
+2020-12-04 14:15:08 [main] INFO  DataBaseConfig:13 - Create DB connection
+2020-12-04 14:15:09 [main] INFO  DataBaseConfig:45 - Closing Result Set
+2020-12-04 14:15:09 [main] INFO  DataBaseConfig:34 - Closing Prepared Statement
+2020-12-04 14:15:09 [main] INFO  DataBaseConfig:23 - Closing DB connection
+2020-12-04 14:15:09 [main] INFO  DataBaseConfig:13 - Create DB connection
+2020-12-04 14:15:09 [main] INFO  DataBaseConfig:45 - Closing Result Set
+2020-12-04 14:15:09 [main] INFO  DataBaseConfig:34 - Closing Prepared Statement
+2020-12-04 14:15:09 [main] INFO  DataBaseConfig:23 - Closing DB connection
+2020-12-04 14:15:09 [main] INFO  DataBaseConfig:13 - Create DB connection
+2020-12-04 14:15:09 [main] INFO  DataBaseConfig:45 - Closing Result Set
+2020-12-04 14:15:09 [main] INFO  DataBaseConfig:34 - Closing Prepared Statement
+2020-12-04 14:15:09 [main] INFO  DataBaseConfig:23 - Closing DB connection
+2020-12-04 14:15:09 [main] INFO  DataBaseConfig:13 - Create DB connection
+2020-12-04 14:15:09 [main] INFO  DataBaseConfig:45 - Closing Result Set
+2020-12-04 14:15:09 [main] INFO  DataBaseConfig:34 - Closing Prepared Statement
+2020-12-04 14:15:09 [main] INFO  DataBaseConfig:23 - Closing DB connection
+2020-12-04 14:15:09 [main] INFO  DataBaseConfig:13 - Create DB connection
+2020-12-04 14:15:09 [main] INFO  DataBaseConfig:45 - Closing Result Set
+2020-12-04 14:15:09 [main] INFO  DataBaseConfig:34 - Closing Prepared Statement
+2020-12-04 14:15:09 [main] INFO  DataBaseConfig:23 - Closing DB connection
+2020-12-04 14:15:09 [main] INFO  DataBaseConfig:13 - Create DB connection
+2020-12-04 14:15:09 [main] INFO  DataBaseConfig:45 - Closing Result Set
+2020-12-04 14:15:09 [main] INFO  DataBaseConfig:34 - Closing Prepared Statement
+2020-12-04 14:15:09 [main] INFO  DataBaseConfig:23 - Closing DB connection
+2020-12-04 14:15:09 [main] INFO  DataBaseConfig:13 - Create DB connection
+2020-12-04 14:15:09 [main] INFO  DataBaseConfig:45 - Closing Result Set
+2020-12-04 14:15:09 [main] INFO  DataBaseConfig:34 - Closing Prepared Statement
+2020-12-04 14:15:09 [main] INFO  DataBaseConfig:23 - Closing DB connection
+2020-12-04 14:15:09 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2020-12-04 14:15:09 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2020-12-04 14:15:09 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2020-12-04 14:15:09 [main] INFO  DataBaseTestConfig:46 - Closing Result Set
+2020-12-04 14:15:09 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2020-12-04 14:15:09 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2020-12-04 14:15:09 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2020-12-04 14:15:09 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2020-12-04 14:15:09 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2020-12-04 14:15:09 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2020-12-04 14:15:09 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2020-12-04 14:15:09 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2020-12-04 14:15:09 [main] INFO  DataBaseTestConfig:46 - Closing Result Set
+2020-12-04 14:15:09 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2020-12-04 14:15:09 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2020-12-04 14:15:09 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2020-12-04 14:15:09 [main] INFO  DataBaseTestConfig:46 - Closing Result Set
+2020-12-04 14:15:09 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2020-12-04 14:15:09 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2020-12-04 14:15:09 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2020-12-04 14:15:09 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2020-12-04 14:15:09 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2020-12-04 14:15:09 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2020-12-04 14:15:09 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2020-12-04 14:15:09 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2020-12-04 14:15:10 [main] INFO  DataBaseTestConfig:46 - Closing Result Set
+2020-12-04 14:15:10 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2020-12-04 14:15:10 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2020-12-04 14:15:10 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2020-12-04 14:15:10 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2020-12-04 14:15:10 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2020-12-04 14:15:10 [main] INFO  DataBaseTestConfig:46 - Closing Result Set
+2020-12-04 14:15:10 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2020-12-04 14:15:10 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2020-12-04 14:15:10 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2020-12-04 14:15:10 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2020-12-04 14:15:10 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2020-12-04 14:15:10 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2020-12-04 14:15:10 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2020-12-04 14:15:10 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2020-12-04 14:15:10 [main] INFO  DataBaseTestConfig:46 - Closing Result Set
+2020-12-04 14:15:10 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2020-12-04 14:15:10 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2020-12-04 14:15:10 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2020-12-04 14:15:10 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2020-12-04 14:15:10 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2020-12-04 14:15:10 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2020-12-04 14:15:10 [main] INFO  DataBaseTestConfig:46 - Closing Result Set
+2020-12-04 14:15:10 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2020-12-04 14:15:10 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2020-12-04 14:15:10 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2020-12-04 14:15:10 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2020-12-04 14:15:10 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2020-12-04 14:15:10 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2020-12-04 14:15:10 [main] INFO  DataBaseTestConfig:46 - Closing Result Set
+2020-12-04 14:15:10 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2020-12-04 14:15:10 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2020-12-04 14:15:10 [main] ERROR ParkingService:78 - Error fetching next available parking slot
+java.lang.Exception: Error fetching parking number from DB. Parking slots might be full
+	at com.parkit.parkingsystem.service.ParkingService.getNextParkingNumberIfAvailable(ParkingService.java:73) ~[classes/:?]
+	at com.parkit.parkingsystem.ParkingDataBaseIT.testParkingACarFull(ParkingDataBaseIT.java:154) ~[test-classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_271]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_271]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_271]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_271]
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:686) ~[org.junit.platform.commons_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60) ~[org.junit.jupiter.engine_5.6.0.v20200203-2009.jar:5.6.0]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131) ~[org.junit.jupiter.engine_5.6.0.v20200203-2009.jar:5.6.0]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:149) ~[org.junit.jupiter.engine_5.6.0.v20200203-2009.jar:5.6.0]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:140) ~[org.junit.jupiter.engine_5.6.0.v20200203-2009.jar:5.6.0]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:84) ~[org.junit.jupiter.engine_5.6.0.v20200203-2009.jar:5.6.0]
+	at org.junit.jupiter.engine.execution.ExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(ExecutableInvoker.java:115) ~[org.junit.jupiter.engine_5.6.0.v20200203-2009.jar:5.6.0]
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.lambda$invoke$0(ExecutableInvoker.java:105) ~[org.junit.jupiter.engine_5.6.0.v20200203-2009.jar:5.6.0]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106) ~[org.junit.jupiter.engine_5.6.0.v20200203-2009.jar:5.6.0]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64) ~[org.junit.jupiter.engine_5.6.0.v20200203-2009.jar:5.6.0]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45) ~[org.junit.jupiter.engine_5.6.0.v20200203-2009.jar:5.6.0]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37) ~[org.junit.jupiter.engine_5.6.0.v20200203-2009.jar:5.6.0]
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:104) ~[org.junit.jupiter.engine_5.6.0.v20200203-2009.jar:5.6.0]
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:98) ~[org.junit.jupiter.engine_5.6.0.v20200203-2009.jar:5.6.0]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$6(TestMethodTestDescriptor.java:205) ~[org.junit.jupiter.engine_5.6.0.v20200203-2009.jar:5.6.0]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:201) ~[org.junit.jupiter.engine_5.6.0.v20200203-2009.jar:5.6.0]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:137) ~[org.junit.jupiter.engine_5.6.0.v20200203-2009.jar:5.6.0]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:71) ~[org.junit.jupiter.engine_5.6.0.v20200203-2009.jar:5.6.0]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:135) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at java.util.ArrayList.forEach(ArrayList.java:1259) ~[?:1.8.0_271]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at java.util.ArrayList.forEach(ArrayList.java:1259) ~[?:1.8.0_271]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:248) ~[org.junit.platform.launcher_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$5(DefaultLauncher.java:211) ~[org.junit.platform.launcher_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:226) [org.junit.platform.launcher_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:199) [org.junit.platform.launcher_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:141) [org.junit.platform.launcher_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.eclipse.jdt.internal.junit5.runner.JUnit5TestReference.run(JUnit5TestReference.java:98) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:542) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:770) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:464) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210) [.cp/:?]
+2020-12-04 14:15:10 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2020-12-04 14:15:10 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2020-12-04 14:15:10 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2020-12-04 14:15:10 [main] INFO  DataBaseTestConfig:46 - Closing Result Set
+2020-12-04 14:15:10 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2020-12-04 14:15:10 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2020-12-04 14:15:10 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2020-12-04 14:15:10 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2020-12-04 14:15:10 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2020-12-04 14:15:10 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2020-12-04 14:15:10 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2020-12-04 14:15:10 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2020-12-04 14:15:10 [main] INFO  DataBaseTestConfig:46 - Closing Result Set
+2020-12-04 14:15:10 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2020-12-04 14:15:10 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2020-12-04 15:40:57 [main] INFO  DataBaseConfig:18 - Create DB connection
+2020-12-04 15:40:57 [main] ERROR TicketDAO:107 - Error fetching next available slot
+java.lang.NullPointerException: null
+	at com.parkit.parkingsystem.dao.TicketDAO.getNbTiket(TicketDAO.java:98) ~[classes/:?]
+	at com.parkit.parkingsystem.service.FareCalculatorService.calculateFare(FareCalculatorService.java:30) ~[classes/:?]
+	at com.parkit.parkingsystem.service.ParkingService.processExitingVehicle(ParkingService.java:111) ~[classes/:?]
+	at com.parkit.parkingsystem.ParkingServiceTest.processExitingVehicleTest(ParkingServiceTest.java:57) ~[test-classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_271]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_271]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_271]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_271]
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:686) ~[org.junit.platform.commons_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60) ~[org.junit.jupiter.engine_5.6.0.v20200203-2009.jar:5.6.0]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131) ~[org.junit.jupiter.engine_5.6.0.v20200203-2009.jar:5.6.0]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:149) ~[org.junit.jupiter.engine_5.6.0.v20200203-2009.jar:5.6.0]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:140) ~[org.junit.jupiter.engine_5.6.0.v20200203-2009.jar:5.6.0]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:84) ~[org.junit.jupiter.engine_5.6.0.v20200203-2009.jar:5.6.0]
+	at org.junit.jupiter.engine.execution.ExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(ExecutableInvoker.java:115) ~[org.junit.jupiter.engine_5.6.0.v20200203-2009.jar:5.6.0]
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.lambda$invoke$0(ExecutableInvoker.java:105) ~[org.junit.jupiter.engine_5.6.0.v20200203-2009.jar:5.6.0]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106) ~[org.junit.jupiter.engine_5.6.0.v20200203-2009.jar:5.6.0]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64) ~[org.junit.jupiter.engine_5.6.0.v20200203-2009.jar:5.6.0]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45) ~[org.junit.jupiter.engine_5.6.0.v20200203-2009.jar:5.6.0]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37) ~[org.junit.jupiter.engine_5.6.0.v20200203-2009.jar:5.6.0]
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:104) ~[org.junit.jupiter.engine_5.6.0.v20200203-2009.jar:5.6.0]
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:98) ~[org.junit.jupiter.engine_5.6.0.v20200203-2009.jar:5.6.0]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$6(TestMethodTestDescriptor.java:205) ~[org.junit.jupiter.engine_5.6.0.v20200203-2009.jar:5.6.0]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:201) ~[org.junit.jupiter.engine_5.6.0.v20200203-2009.jar:5.6.0]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:137) ~[org.junit.jupiter.engine_5.6.0.v20200203-2009.jar:5.6.0]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:71) ~[org.junit.jupiter.engine_5.6.0.v20200203-2009.jar:5.6.0]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:135) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at java.util.ArrayList.forEach(ArrayList.java:1259) ~[?:1.8.0_271]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at java.util.ArrayList.forEach(ArrayList.java:1259) ~[?:1.8.0_271]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:248) ~[org.junit.platform.launcher_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$5(DefaultLauncher.java:211) ~[org.junit.platform.launcher_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:226) [org.junit.platform.launcher_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:199) [org.junit.platform.launcher_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:141) [org.junit.platform.launcher_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.eclipse.jdt.internal.junit5.runner.JUnit5TestReference.run(JUnit5TestReference.java:98) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:542) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:770) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:464) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210) [.cp/:?]
+2020-12-04 15:40:57 [main] INFO  DataBaseConfig:18 - Create DB connection
+2020-12-04 15:40:57 [main] ERROR TicketDAO:107 - Error fetching next available slot
+java.lang.NullPointerException: null
+	at com.parkit.parkingsystem.dao.TicketDAO.getNbTiket(TicketDAO.java:98) ~[classes/:?]
+	at com.parkit.parkingsystem.service.FareCalculatorService.calculateFare(FareCalculatorService.java:30) ~[classes/:?]
+	at com.parkit.parkingsystem.FareCalculatorServiceTest.calculateFareCarWithLessThanOneHourParkingTime(FareCalculatorServiceTest.java:120) ~[test-classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_271]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_271]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_271]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_271]
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:686) ~[org.junit.platform.commons_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60) ~[org.junit.jupiter.engine_5.6.0.v20200203-2009.jar:5.6.0]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131) ~[org.junit.jupiter.engine_5.6.0.v20200203-2009.jar:5.6.0]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:149) ~[org.junit.jupiter.engine_5.6.0.v20200203-2009.jar:5.6.0]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:140) ~[org.junit.jupiter.engine_5.6.0.v20200203-2009.jar:5.6.0]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:84) ~[org.junit.jupiter.engine_5.6.0.v20200203-2009.jar:5.6.0]
+	at org.junit.jupiter.engine.execution.ExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(ExecutableInvoker.java:115) ~[org.junit.jupiter.engine_5.6.0.v20200203-2009.jar:5.6.0]
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.lambda$invoke$0(ExecutableInvoker.java:105) ~[org.junit.jupiter.engine_5.6.0.v20200203-2009.jar:5.6.0]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106) ~[org.junit.jupiter.engine_5.6.0.v20200203-2009.jar:5.6.0]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64) ~[org.junit.jupiter.engine_5.6.0.v20200203-2009.jar:5.6.0]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45) ~[org.junit.jupiter.engine_5.6.0.v20200203-2009.jar:5.6.0]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37) ~[org.junit.jupiter.engine_5.6.0.v20200203-2009.jar:5.6.0]
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:104) ~[org.junit.jupiter.engine_5.6.0.v20200203-2009.jar:5.6.0]
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:98) ~[org.junit.jupiter.engine_5.6.0.v20200203-2009.jar:5.6.0]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$6(TestMethodTestDescriptor.java:205) ~[org.junit.jupiter.engine_5.6.0.v20200203-2009.jar:5.6.0]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:201) ~[org.junit.jupiter.engine_5.6.0.v20200203-2009.jar:5.6.0]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:137) ~[org.junit.jupiter.engine_5.6.0.v20200203-2009.jar:5.6.0]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:71) ~[org.junit.jupiter.engine_5.6.0.v20200203-2009.jar:5.6.0]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:135) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at java.util.ArrayList.forEach(ArrayList.java:1259) ~[?:1.8.0_271]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at java.util.ArrayList.forEach(ArrayList.java:1259) ~[?:1.8.0_271]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:248) ~[org.junit.platform.launcher_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$5(DefaultLauncher.java:211) ~[org.junit.platform.launcher_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:226) [org.junit.platform.launcher_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:199) [org.junit.platform.launcher_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:141) [org.junit.platform.launcher_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.eclipse.jdt.internal.junit5.runner.JUnit5TestReference.run(JUnit5TestReference.java:98) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:542) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:770) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:464) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210) [.cp/:?]
+2020-12-04 15:40:57 [main] INFO  DataBaseConfig:18 - Create DB connection
+2020-12-04 15:40:57 [main] ERROR TicketDAO:107 - Error fetching next available slot
+java.lang.NullPointerException: null
+	at com.parkit.parkingsystem.dao.TicketDAO.getNbTiket(TicketDAO.java:98) ~[classes/:?]
+	at com.parkit.parkingsystem.service.FareCalculatorService.calculateFare(FareCalculatorService.java:30) ~[classes/:?]
+	at com.parkit.parkingsystem.FareCalculatorServiceTest.lambda$0(FareCalculatorServiceTest.java:69) ~[test-classes/:?]
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:55) ~[org.junit.jupiter.api_5.6.0.v20200203-2009.jar:5.6.0]
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:37) ~[org.junit.jupiter.api_5.6.0.v20200203-2009.jar:5.6.0]
+	at org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:2952) ~[org.junit.jupiter.api_5.6.0.v20200203-2009.jar:5.6.0]
+	at com.parkit.parkingsystem.FareCalculatorServiceTest.calculateFareUnkownType(FareCalculatorServiceTest.java:69) ~[test-classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_271]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_271]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_271]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_271]
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:686) ~[org.junit.platform.commons_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60) ~[org.junit.jupiter.engine_5.6.0.v20200203-2009.jar:5.6.0]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131) ~[org.junit.jupiter.engine_5.6.0.v20200203-2009.jar:5.6.0]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:149) ~[org.junit.jupiter.engine_5.6.0.v20200203-2009.jar:5.6.0]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:140) ~[org.junit.jupiter.engine_5.6.0.v20200203-2009.jar:5.6.0]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:84) ~[org.junit.jupiter.engine_5.6.0.v20200203-2009.jar:5.6.0]
+	at org.junit.jupiter.engine.execution.ExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(ExecutableInvoker.java:115) ~[org.junit.jupiter.engine_5.6.0.v20200203-2009.jar:5.6.0]
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.lambda$invoke$0(ExecutableInvoker.java:105) ~[org.junit.jupiter.engine_5.6.0.v20200203-2009.jar:5.6.0]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106) ~[org.junit.jupiter.engine_5.6.0.v20200203-2009.jar:5.6.0]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64) ~[org.junit.jupiter.engine_5.6.0.v20200203-2009.jar:5.6.0]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45) ~[org.junit.jupiter.engine_5.6.0.v20200203-2009.jar:5.6.0]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37) ~[org.junit.jupiter.engine_5.6.0.v20200203-2009.jar:5.6.0]
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:104) ~[org.junit.jupiter.engine_5.6.0.v20200203-2009.jar:5.6.0]
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:98) ~[org.junit.jupiter.engine_5.6.0.v20200203-2009.jar:5.6.0]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$6(TestMethodTestDescriptor.java:205) ~[org.junit.jupiter.engine_5.6.0.v20200203-2009.jar:5.6.0]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:201) ~[org.junit.jupiter.engine_5.6.0.v20200203-2009.jar:5.6.0]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:137) ~[org.junit.jupiter.engine_5.6.0.v20200203-2009.jar:5.6.0]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:71) ~[org.junit.jupiter.engine_5.6.0.v20200203-2009.jar:5.6.0]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:135) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at java.util.ArrayList.forEach(ArrayList.java:1259) ~[?:1.8.0_271]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at java.util.ArrayList.forEach(ArrayList.java:1259) ~[?:1.8.0_271]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:248) ~[org.junit.platform.launcher_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$5(DefaultLauncher.java:211) ~[org.junit.platform.launcher_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:226) [org.junit.platform.launcher_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:199) [org.junit.platform.launcher_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:141) [org.junit.platform.launcher_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.eclipse.jdt.internal.junit5.runner.JUnit5TestReference.run(JUnit5TestReference.java:98) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:542) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:770) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:464) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210) [.cp/:?]
+2020-12-04 15:40:57 [main] INFO  DataBaseConfig:18 - Create DB connection
+2020-12-04 15:40:57 [main] ERROR TicketDAO:107 - Error fetching next available slot
+java.lang.NullPointerException: null
+	at com.parkit.parkingsystem.dao.TicketDAO.getNbTiket(TicketDAO.java:98) ~[classes/:?]
+	at com.parkit.parkingsystem.service.FareCalculatorService.calculateFare(FareCalculatorService.java:30) ~[classes/:?]
+	at com.parkit.parkingsystem.FareCalculatorServiceTest.calculateFareCar(FareCalculatorServiceTest.java:41) ~[test-classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_271]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_271]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_271]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_271]
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:686) ~[org.junit.platform.commons_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60) ~[org.junit.jupiter.engine_5.6.0.v20200203-2009.jar:5.6.0]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131) ~[org.junit.jupiter.engine_5.6.0.v20200203-2009.jar:5.6.0]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:149) ~[org.junit.jupiter.engine_5.6.0.v20200203-2009.jar:5.6.0]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:140) ~[org.junit.jupiter.engine_5.6.0.v20200203-2009.jar:5.6.0]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:84) ~[org.junit.jupiter.engine_5.6.0.v20200203-2009.jar:5.6.0]
+	at org.junit.jupiter.engine.execution.ExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(ExecutableInvoker.java:115) ~[org.junit.jupiter.engine_5.6.0.v20200203-2009.jar:5.6.0]
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.lambda$invoke$0(ExecutableInvoker.java:105) ~[org.junit.jupiter.engine_5.6.0.v20200203-2009.jar:5.6.0]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106) ~[org.junit.jupiter.engine_5.6.0.v20200203-2009.jar:5.6.0]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64) ~[org.junit.jupiter.engine_5.6.0.v20200203-2009.jar:5.6.0]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45) ~[org.junit.jupiter.engine_5.6.0.v20200203-2009.jar:5.6.0]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37) ~[org.junit.jupiter.engine_5.6.0.v20200203-2009.jar:5.6.0]
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:104) ~[org.junit.jupiter.engine_5.6.0.v20200203-2009.jar:5.6.0]
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:98) ~[org.junit.jupiter.engine_5.6.0.v20200203-2009.jar:5.6.0]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$6(TestMethodTestDescriptor.java:205) ~[org.junit.jupiter.engine_5.6.0.v20200203-2009.jar:5.6.0]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:201) ~[org.junit.jupiter.engine_5.6.0.v20200203-2009.jar:5.6.0]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:137) ~[org.junit.jupiter.engine_5.6.0.v20200203-2009.jar:5.6.0]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:71) ~[org.junit.jupiter.engine_5.6.0.v20200203-2009.jar:5.6.0]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:135) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at java.util.ArrayList.forEach(ArrayList.java:1259) ~[?:1.8.0_271]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at java.util.ArrayList.forEach(ArrayList.java:1259) ~[?:1.8.0_271]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:248) ~[org.junit.platform.launcher_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$5(DefaultLauncher.java:211) ~[org.junit.platform.launcher_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:226) [org.junit.platform.launcher_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:199) [org.junit.platform.launcher_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:141) [org.junit.platform.launcher_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.eclipse.jdt.internal.junit5.runner.JUnit5TestReference.run(JUnit5TestReference.java:98) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:542) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:770) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:464) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210) [.cp/:?]
+2020-12-04 15:40:57 [main] INFO  DataBaseConfig:18 - Create DB connection
+2020-12-04 15:40:57 [main] ERROR TicketDAO:107 - Error fetching next available slot
+java.lang.NullPointerException: null
+	at com.parkit.parkingsystem.dao.TicketDAO.getNbTiket(TicketDAO.java:98) ~[classes/:?]
+	at com.parkit.parkingsystem.service.FareCalculatorService.calculateFare(FareCalculatorService.java:30) ~[classes/:?]
+	at com.parkit.parkingsystem.FareCalculatorServiceTest.calculateFareBike(FareCalculatorServiceTest.java:55) ~[test-classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_271]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_271]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_271]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_271]
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:686) ~[org.junit.platform.commons_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60) ~[org.junit.jupiter.engine_5.6.0.v20200203-2009.jar:5.6.0]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131) ~[org.junit.jupiter.engine_5.6.0.v20200203-2009.jar:5.6.0]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:149) ~[org.junit.jupiter.engine_5.6.0.v20200203-2009.jar:5.6.0]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:140) ~[org.junit.jupiter.engine_5.6.0.v20200203-2009.jar:5.6.0]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:84) ~[org.junit.jupiter.engine_5.6.0.v20200203-2009.jar:5.6.0]
+	at org.junit.jupiter.engine.execution.ExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(ExecutableInvoker.java:115) ~[org.junit.jupiter.engine_5.6.0.v20200203-2009.jar:5.6.0]
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.lambda$invoke$0(ExecutableInvoker.java:105) ~[org.junit.jupiter.engine_5.6.0.v20200203-2009.jar:5.6.0]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106) ~[org.junit.jupiter.engine_5.6.0.v20200203-2009.jar:5.6.0]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64) ~[org.junit.jupiter.engine_5.6.0.v20200203-2009.jar:5.6.0]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45) ~[org.junit.jupiter.engine_5.6.0.v20200203-2009.jar:5.6.0]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37) ~[org.junit.jupiter.engine_5.6.0.v20200203-2009.jar:5.6.0]
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:104) ~[org.junit.jupiter.engine_5.6.0.v20200203-2009.jar:5.6.0]
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:98) ~[org.junit.jupiter.engine_5.6.0.v20200203-2009.jar:5.6.0]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$6(TestMethodTestDescriptor.java:205) ~[org.junit.jupiter.engine_5.6.0.v20200203-2009.jar:5.6.0]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:201) ~[org.junit.jupiter.engine_5.6.0.v20200203-2009.jar:5.6.0]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:137) ~[org.junit.jupiter.engine_5.6.0.v20200203-2009.jar:5.6.0]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:71) ~[org.junit.jupiter.engine_5.6.0.v20200203-2009.jar:5.6.0]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:135) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at java.util.ArrayList.forEach(ArrayList.java:1259) ~[?:1.8.0_271]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at java.util.ArrayList.forEach(ArrayList.java:1259) ~[?:1.8.0_271]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:248) ~[org.junit.platform.launcher_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$5(DefaultLauncher.java:211) ~[org.junit.platform.launcher_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:226) [org.junit.platform.launcher_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:199) [org.junit.platform.launcher_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:141) [org.junit.platform.launcher_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.eclipse.jdt.internal.junit5.runner.JUnit5TestReference.run(JUnit5TestReference.java:98) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:542) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:770) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:464) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210) [.cp/:?]
+2020-12-04 15:40:57 [main] INFO  DataBaseConfig:18 - Create DB connection
+2020-12-04 15:40:57 [main] ERROR TicketDAO:107 - Error fetching next available slot
+java.lang.NullPointerException: null
+	at com.parkit.parkingsystem.dao.TicketDAO.getNbTiket(TicketDAO.java:98) ~[classes/:?]
+	at com.parkit.parkingsystem.service.FareCalculatorService.calculateFare(FareCalculatorService.java:30) ~[classes/:?]
+	at com.parkit.parkingsystem.FareCalculatorServiceTest.calculateFareCarWithMoreThanADayParkingTime(FareCalculatorServiceTest.java:134) ~[test-classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_271]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_271]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_271]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_271]
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:686) ~[org.junit.platform.commons_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60) ~[org.junit.jupiter.engine_5.6.0.v20200203-2009.jar:5.6.0]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131) ~[org.junit.jupiter.engine_5.6.0.v20200203-2009.jar:5.6.0]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:149) ~[org.junit.jupiter.engine_5.6.0.v20200203-2009.jar:5.6.0]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:140) ~[org.junit.jupiter.engine_5.6.0.v20200203-2009.jar:5.6.0]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:84) ~[org.junit.jupiter.engine_5.6.0.v20200203-2009.jar:5.6.0]
+	at org.junit.jupiter.engine.execution.ExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(ExecutableInvoker.java:115) ~[org.junit.jupiter.engine_5.6.0.v20200203-2009.jar:5.6.0]
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.lambda$invoke$0(ExecutableInvoker.java:105) ~[org.junit.jupiter.engine_5.6.0.v20200203-2009.jar:5.6.0]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106) ~[org.junit.jupiter.engine_5.6.0.v20200203-2009.jar:5.6.0]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64) ~[org.junit.jupiter.engine_5.6.0.v20200203-2009.jar:5.6.0]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45) ~[org.junit.jupiter.engine_5.6.0.v20200203-2009.jar:5.6.0]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37) ~[org.junit.jupiter.engine_5.6.0.v20200203-2009.jar:5.6.0]
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:104) ~[org.junit.jupiter.engine_5.6.0.v20200203-2009.jar:5.6.0]
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:98) ~[org.junit.jupiter.engine_5.6.0.v20200203-2009.jar:5.6.0]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$6(TestMethodTestDescriptor.java:205) ~[org.junit.jupiter.engine_5.6.0.v20200203-2009.jar:5.6.0]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:201) ~[org.junit.jupiter.engine_5.6.0.v20200203-2009.jar:5.6.0]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:137) ~[org.junit.jupiter.engine_5.6.0.v20200203-2009.jar:5.6.0]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:71) ~[org.junit.jupiter.engine_5.6.0.v20200203-2009.jar:5.6.0]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:135) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at java.util.ArrayList.forEach(ArrayList.java:1259) ~[?:1.8.0_271]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at java.util.ArrayList.forEach(ArrayList.java:1259) ~[?:1.8.0_271]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:248) ~[org.junit.platform.launcher_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$5(DefaultLauncher.java:211) ~[org.junit.platform.launcher_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:226) [org.junit.platform.launcher_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:199) [org.junit.platform.launcher_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:141) [org.junit.platform.launcher_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.eclipse.jdt.internal.junit5.runner.JUnit5TestReference.run(JUnit5TestReference.java:98) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:542) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:770) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:464) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210) [.cp/:?]
+2020-12-04 15:40:57 [main] INFO  DataBaseConfig:18 - Create DB connection
+2020-12-04 15:40:57 [main] ERROR TicketDAO:107 - Error fetching next available slot
+java.lang.NullPointerException: null
+	at com.parkit.parkingsystem.dao.TicketDAO.getNbTiket(TicketDAO.java:98) ~[classes/:?]
+	at com.parkit.parkingsystem.service.FareCalculatorService.calculateFare(FareCalculatorService.java:30) ~[classes/:?]
+	at com.parkit.parkingsystem.FareCalculatorServiceTest.calculateFareBikeWithLessThanOneHourParkingTime(FareCalculatorServiceTest.java:95) ~[test-classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_271]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_271]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_271]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_271]
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:686) ~[org.junit.platform.commons_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60) ~[org.junit.jupiter.engine_5.6.0.v20200203-2009.jar:5.6.0]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131) ~[org.junit.jupiter.engine_5.6.0.v20200203-2009.jar:5.6.0]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:149) ~[org.junit.jupiter.engine_5.6.0.v20200203-2009.jar:5.6.0]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:140) ~[org.junit.jupiter.engine_5.6.0.v20200203-2009.jar:5.6.0]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:84) ~[org.junit.jupiter.engine_5.6.0.v20200203-2009.jar:5.6.0]
+	at org.junit.jupiter.engine.execution.ExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(ExecutableInvoker.java:115) ~[org.junit.jupiter.engine_5.6.0.v20200203-2009.jar:5.6.0]
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.lambda$invoke$0(ExecutableInvoker.java:105) ~[org.junit.jupiter.engine_5.6.0.v20200203-2009.jar:5.6.0]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106) ~[org.junit.jupiter.engine_5.6.0.v20200203-2009.jar:5.6.0]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64) ~[org.junit.jupiter.engine_5.6.0.v20200203-2009.jar:5.6.0]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45) ~[org.junit.jupiter.engine_5.6.0.v20200203-2009.jar:5.6.0]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37) ~[org.junit.jupiter.engine_5.6.0.v20200203-2009.jar:5.6.0]
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:104) ~[org.junit.jupiter.engine_5.6.0.v20200203-2009.jar:5.6.0]
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:98) ~[org.junit.jupiter.engine_5.6.0.v20200203-2009.jar:5.6.0]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$6(TestMethodTestDescriptor.java:205) ~[org.junit.jupiter.engine_5.6.0.v20200203-2009.jar:5.6.0]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:201) ~[org.junit.jupiter.engine_5.6.0.v20200203-2009.jar:5.6.0]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:137) ~[org.junit.jupiter.engine_5.6.0.v20200203-2009.jar:5.6.0]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:71) ~[org.junit.jupiter.engine_5.6.0.v20200203-2009.jar:5.6.0]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:135) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at java.util.ArrayList.forEach(ArrayList.java:1259) ~[?:1.8.0_271]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at java.util.ArrayList.forEach(ArrayList.java:1259) ~[?:1.8.0_271]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:248) ~[org.junit.platform.launcher_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$5(DefaultLauncher.java:211) ~[org.junit.platform.launcher_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:226) [org.junit.platform.launcher_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:199) [org.junit.platform.launcher_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:141) [org.junit.platform.launcher_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.eclipse.jdt.internal.junit5.runner.JUnit5TestReference.run(JUnit5TestReference.java:98) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:542) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:770) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:464) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210) [.cp/:?]
+2020-12-04 15:40:57 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2020-12-04 15:40:58 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2020-12-04 15:40:58 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2020-12-04 15:40:58 [main] INFO  DataBaseTestConfig:46 - Closing Result Set
+2020-12-04 15:40:58 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2020-12-04 15:40:58 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2020-12-04 15:40:58 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2020-12-04 15:40:58 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2020-12-04 15:40:58 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2020-12-04 15:40:58 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2020-12-04 15:40:58 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2020-12-04 15:40:58 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2020-12-04 15:40:58 [main] INFO  DataBaseTestConfig:46 - Closing Result Set
+2020-12-04 15:40:58 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2020-12-04 15:40:58 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2020-12-04 15:40:58 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2020-12-04 15:40:58 [main] INFO  DataBaseTestConfig:46 - Closing Result Set
+2020-12-04 15:40:58 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2020-12-04 15:40:58 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2020-12-04 15:40:58 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2020-12-04 15:40:59 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2020-12-04 15:40:59 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2020-12-04 15:40:59 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2020-12-04 15:40:59 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2020-12-04 15:40:59 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2020-12-04 15:40:59 [main] INFO  DataBaseTestConfig:46 - Closing Result Set
+2020-12-04 15:40:59 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2020-12-04 15:40:59 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2020-12-04 15:40:59 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2020-12-04 15:40:59 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2020-12-04 15:40:59 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2020-12-04 15:40:59 [main] INFO  DataBaseTestConfig:46 - Closing Result Set
+2020-12-04 15:40:59 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2020-12-04 15:40:59 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2020-12-04 15:40:59 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2020-12-04 15:40:59 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2020-12-04 15:40:59 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2020-12-04 15:40:59 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2020-12-04 15:40:59 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2020-12-04 15:40:59 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2020-12-04 15:40:59 [main] INFO  DataBaseTestConfig:46 - Closing Result Set
+2020-12-04 15:40:59 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2020-12-04 15:40:59 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2020-12-04 15:40:59 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2020-12-04 15:40:59 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2020-12-04 15:40:59 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2020-12-04 15:40:59 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2020-12-04 15:40:59 [main] INFO  DataBaseTestConfig:46 - Closing Result Set
+2020-12-04 15:40:59 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2020-12-04 15:40:59 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2020-12-04 15:40:59 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2020-12-04 15:40:59 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2020-12-04 15:40:59 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2020-12-04 15:40:59 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2020-12-04 15:40:59 [main] INFO  DataBaseTestConfig:46 - Closing Result Set
+2020-12-04 15:40:59 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2020-12-04 15:40:59 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2020-12-04 15:40:59 [main] ERROR ParkingService:78 - Error fetching next available parking slot
+java.lang.Exception: Error fetching parking number from DB. Parking slots might be full
+	at com.parkit.parkingsystem.service.ParkingService.getNextParkingNumberIfAvailable(ParkingService.java:73) ~[classes/:?]
+	at com.parkit.parkingsystem.ParkingDataBaseIT.testParkingACarFull(ParkingDataBaseIT.java:154) ~[test-classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_271]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_271]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_271]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_271]
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:686) ~[org.junit.platform.commons_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60) ~[org.junit.jupiter.engine_5.6.0.v20200203-2009.jar:5.6.0]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131) ~[org.junit.jupiter.engine_5.6.0.v20200203-2009.jar:5.6.0]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:149) ~[org.junit.jupiter.engine_5.6.0.v20200203-2009.jar:5.6.0]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:140) ~[org.junit.jupiter.engine_5.6.0.v20200203-2009.jar:5.6.0]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:84) ~[org.junit.jupiter.engine_5.6.0.v20200203-2009.jar:5.6.0]
+	at org.junit.jupiter.engine.execution.ExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(ExecutableInvoker.java:115) ~[org.junit.jupiter.engine_5.6.0.v20200203-2009.jar:5.6.0]
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.lambda$invoke$0(ExecutableInvoker.java:105) ~[org.junit.jupiter.engine_5.6.0.v20200203-2009.jar:5.6.0]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106) ~[org.junit.jupiter.engine_5.6.0.v20200203-2009.jar:5.6.0]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64) ~[org.junit.jupiter.engine_5.6.0.v20200203-2009.jar:5.6.0]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45) ~[org.junit.jupiter.engine_5.6.0.v20200203-2009.jar:5.6.0]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37) ~[org.junit.jupiter.engine_5.6.0.v20200203-2009.jar:5.6.0]
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:104) ~[org.junit.jupiter.engine_5.6.0.v20200203-2009.jar:5.6.0]
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:98) ~[org.junit.jupiter.engine_5.6.0.v20200203-2009.jar:5.6.0]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$6(TestMethodTestDescriptor.java:205) ~[org.junit.jupiter.engine_5.6.0.v20200203-2009.jar:5.6.0]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:201) ~[org.junit.jupiter.engine_5.6.0.v20200203-2009.jar:5.6.0]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:137) ~[org.junit.jupiter.engine_5.6.0.v20200203-2009.jar:5.6.0]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:71) ~[org.junit.jupiter.engine_5.6.0.v20200203-2009.jar:5.6.0]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:135) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at java.util.ArrayList.forEach(ArrayList.java:1259) ~[?:1.8.0_271]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at java.util.ArrayList.forEach(ArrayList.java:1259) ~[?:1.8.0_271]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51) ~[org.junit.platform.engine_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:248) ~[org.junit.platform.launcher_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$5(DefaultLauncher.java:211) ~[org.junit.platform.launcher_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:226) [org.junit.platform.launcher_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:199) [org.junit.platform.launcher_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:141) [org.junit.platform.launcher_1.6.0.v20200203-2009.jar:1.6.0]
+	at org.eclipse.jdt.internal.junit5.runner.JUnit5TestReference.run(JUnit5TestReference.java:98) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:542) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:770) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:464) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210) [.cp/:?]
+2020-12-04 15:40:59 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2020-12-04 15:40:59 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2020-12-04 15:40:59 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2020-12-04 15:40:59 [main] INFO  DataBaseTestConfig:46 - Closing Result Set
+2020-12-04 15:40:59 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2020-12-04 15:40:59 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2020-12-04 15:40:59 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2020-12-04 15:40:59 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2020-12-04 15:40:59 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2020-12-04 15:40:59 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2020-12-04 15:40:59 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2020-12-04 15:40:59 [main] INFO  DataBaseTestConfig:14 - Create DB connection
+2020-12-04 15:40:59 [main] INFO  DataBaseTestConfig:46 - Closing Result Set
+2020-12-04 15:40:59 [main] INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+2020-12-04 15:40:59 [main] INFO  DataBaseTestConfig:24 - Closing DB connection
+2020-12-04 15:41:38 [main] INFO  App:13 - Initializing Parking System
+2020-12-04 15:41:38 [main] INFO  InteractiveShell:14 - App initialized!!!
+2020-12-04 15:41:45 [main] INFO  DataBaseConfig:18 - Create DB connection
+2020-12-04 15:41:45 [main] ERROR ParkingSpotDAO:33 - Error fetching next available slot
+java.lang.NullPointerException: null
+	at com.parkit.parkingsystem.dao.ParkingSpotDAO.getNextAvailableSlot(ParkingSpotDAO.java:24) [classes/:?]
+	at com.parkit.parkingsystem.service.ParkingService.getNextParkingNumberIfAvailable(ParkingService.java:69) [classes/:?]
+	at com.parkit.parkingsystem.service.ParkingService.processIncomingVehicle(ParkingService.java:36) [classes/:?]
+	at com.parkit.parkingsystem.service.InteractiveShell.loadInterface(InteractiveShell.java:28) [classes/:?]
+	at com.parkit.parkingsystem.App.main(App.java:14) [classes/:?]
+2020-12-04 15:41:45 [main] ERROR ParkingService:78 - Error fetching next available parking slot
+java.lang.Exception: Error fetching parking number from DB. Parking slots might be full
+	at com.parkit.parkingsystem.service.ParkingService.getNextParkingNumberIfAvailable(ParkingService.java:73) [classes/:?]
+	at com.parkit.parkingsystem.service.ParkingService.processIncomingVehicle(ParkingService.java:36) [classes/:?]
+	at com.parkit.parkingsystem.service.InteractiveShell.loadInterface(InteractiveShell.java:28) [classes/:?]
+	at com.parkit.parkingsystem.App.main(App.java:14) [classes/:?]
+2020-12-04 15:43:47 [main] INFO  App:13 - Initializing Parking System
+2020-12-04 15:43:47 [main] INFO  InteractiveShell:14 - App initialized!!!
+2020-12-04 15:43:58 [main] INFO  DataBaseConfig:18 - Create DB connection
+2020-12-04 15:43:58 [main] ERROR ParkingSpotDAO:33 - Error fetching next available slot
+java.lang.NullPointerException: null
+	at com.parkit.parkingsystem.dao.ParkingSpotDAO.getNextAvailableSlot(ParkingSpotDAO.java:24) [classes/:?]
+	at com.parkit.parkingsystem.service.ParkingService.getNextParkingNumberIfAvailable(ParkingService.java:69) [classes/:?]
+	at com.parkit.parkingsystem.service.ParkingService.processIncomingVehicle(ParkingService.java:36) [classes/:?]
+	at com.parkit.parkingsystem.service.InteractiveShell.loadInterface(InteractiveShell.java:28) [classes/:?]
+	at com.parkit.parkingsystem.App.main(App.java:14) [classes/:?]
+2020-12-04 15:43:58 [main] ERROR ParkingService:78 - Error fetching next available parking slot
+java.lang.Exception: Error fetching parking number from DB. Parking slots might be full
+	at com.parkit.parkingsystem.service.ParkingService.getNextParkingNumberIfAvailable(ParkingService.java:73) [classes/:?]
+	at com.parkit.parkingsystem.service.ParkingService.processIncomingVehicle(ParkingService.java:36) [classes/:?]
+	at com.parkit.parkingsystem.service.InteractiveShell.loadInterface(InteractiveShell.java:28) [classes/:?]
+	at com.parkit.parkingsystem.App.main(App.java:14) [classes/:?]
+2020-12-04 15:44:34 [main] INFO  App:13 - Initializing Parking System
+2020-12-04 15:44:34 [main] INFO  InteractiveShell:14 - App initialized!!!
+2020-12-04 15:44:38 [main] INFO  DataBaseConfig:18 - Create DB connection
+2020-12-04 15:44:38 [main] ERROR ParkingSpotDAO:33 - Error fetching next available slot
+java.lang.NullPointerException: null
+	at com.parkit.parkingsystem.dao.ParkingSpotDAO.getNextAvailableSlot(ParkingSpotDAO.java:24) [classes/:?]
+	at com.parkit.parkingsystem.service.ParkingService.getNextParkingNumberIfAvailable(ParkingService.java:69) [classes/:?]
+	at com.parkit.parkingsystem.service.ParkingService.processIncomingVehicle(ParkingService.java:36) [classes/:?]
+	at com.parkit.parkingsystem.service.InteractiveShell.loadInterface(InteractiveShell.java:28) [classes/:?]
+	at com.parkit.parkingsystem.App.main(App.java:14) [classes/:?]
+2020-12-04 15:44:38 [main] ERROR ParkingService:78 - Error fetching next available parking slot
+java.lang.Exception: Error fetching parking number from DB. Parking slots might be full
+	at com.parkit.parkingsystem.service.ParkingService.getNextParkingNumberIfAvailable(ParkingService.java:73) [classes/:?]
+	at com.parkit.parkingsystem.service.ParkingService.processIncomingVehicle(ParkingService.java:36) [classes/:?]
+	at com.parkit.parkingsystem.service.InteractiveShell.loadInterface(InteractiveShell.java:28) [classes/:?]
+	at com.parkit.parkingsystem.App.main(App.java:14) [classes/:?]
+2020-12-04 15:44:53 [main] INFO  App:13 - Initializing Parking System
+2020-12-04 15:44:53 [main] INFO  InteractiveShell:14 - App initialized!!!
+2020-12-04 15:44:57 [main] INFO  DataBaseConfig:18 - Create DB connection
+2020-12-04 15:44:57 [main] ERROR ParkingSpotDAO:33 - Error fetching next available slot
+java.lang.NullPointerException: null
+	at com.parkit.parkingsystem.dao.ParkingSpotDAO.getNextAvailableSlot(ParkingSpotDAO.java:24) [classes/:?]
+	at com.parkit.parkingsystem.service.ParkingService.getNextParkingNumberIfAvailable(ParkingService.java:69) [classes/:?]
+	at com.parkit.parkingsystem.service.ParkingService.processIncomingVehicle(ParkingService.java:36) [classes/:?]
+	at com.parkit.parkingsystem.service.InteractiveShell.loadInterface(InteractiveShell.java:28) [classes/:?]
+	at com.parkit.parkingsystem.App.main(App.java:14) [classes/:?]
+2020-12-04 15:44:57 [main] ERROR ParkingService:78 - Error fetching next available parking slot
+java.lang.Exception: Error fetching parking number from DB. Parking slots might be full
+	at com.parkit.parkingsystem.service.ParkingService.getNextParkingNumberIfAvailable(ParkingService.java:73) [classes/:?]
+	at com.parkit.parkingsystem.service.ParkingService.processIncomingVehicle(ParkingService.java:36) [classes/:?]
+	at com.parkit.parkingsystem.service.InteractiveShell.loadInterface(InteractiveShell.java:28) [classes/:?]
+	at com.parkit.parkingsystem.App.main(App.java:14) [classes/:?]
+2020-12-04 15:45:23 [main] INFO  App:13 - Initializing Parking System
+2020-12-04 15:45:23 [main] INFO  InteractiveShell:14 - App initialized!!!
+2020-12-04 15:45:27 [main] INFO  DataBaseConfig:18 - Create DB connection
+2020-12-04 15:45:27 [main] ERROR ParkingSpotDAO:33 - Error fetching next available slot
+java.lang.NullPointerException: null
+	at com.parkit.parkingsystem.dao.ParkingSpotDAO.getNextAvailableSlot(ParkingSpotDAO.java:24) [classes/:?]
+	at com.parkit.parkingsystem.service.ParkingService.getNextParkingNumberIfAvailable(ParkingService.java:69) [classes/:?]
+	at com.parkit.parkingsystem.service.ParkingService.processIncomingVehicle(ParkingService.java:36) [classes/:?]
+	at com.parkit.parkingsystem.service.InteractiveShell.loadInterface(InteractiveShell.java:28) [classes/:?]
+	at com.parkit.parkingsystem.App.main(App.java:14) [classes/:?]
+2020-12-04 15:45:27 [main] ERROR ParkingService:78 - Error fetching next available parking slot
+java.lang.Exception: Error fetching parking number from DB. Parking slots might be full
+	at com.parkit.parkingsystem.service.ParkingService.getNextParkingNumberIfAvailable(ParkingService.java:73) [classes/:?]
+	at com.parkit.parkingsystem.service.ParkingService.processIncomingVehicle(ParkingService.java:36) [classes/:?]
+	at com.parkit.parkingsystem.service.InteractiveShell.loadInterface(InteractiveShell.java:28) [classes/:?]
+	at com.parkit.parkingsystem.App.main(App.java:14) [classes/:?]
+2020-12-04 15:45:36 [main] INFO  App:13 - Initializing Parking System
+2020-12-04 15:45:36 [main] INFO  InteractiveShell:14 - App initialized!!!
+2020-12-04 15:45:41 [main] INFO  DataBaseConfig:18 - Create DB connection
+2020-12-04 15:45:41 [main] ERROR ParkingSpotDAO:33 - Error fetching next available slot
+java.lang.NullPointerException: null
+	at com.parkit.parkingsystem.dao.ParkingSpotDAO.getNextAvailableSlot(ParkingSpotDAO.java:24) [classes/:?]
+	at com.parkit.parkingsystem.service.ParkingService.getNextParkingNumberIfAvailable(ParkingService.java:69) [classes/:?]
+	at com.parkit.parkingsystem.service.ParkingService.processIncomingVehicle(ParkingService.java:36) [classes/:?]
+	at com.parkit.parkingsystem.service.InteractiveShell.loadInterface(InteractiveShell.java:28) [classes/:?]
+	at com.parkit.parkingsystem.App.main(App.java:14) [classes/:?]
+2020-12-04 15:45:41 [main] ERROR ParkingService:78 - Error fetching next available parking slot
+java.lang.Exception: Error fetching parking number from DB. Parking slots might be full
+	at com.parkit.parkingsystem.service.ParkingService.getNextParkingNumberIfAvailable(ParkingService.java:73) [classes/:?]
+	at com.parkit.parkingsystem.service.ParkingService.processIncomingVehicle(ParkingService.java:36) [classes/:?]
+	at com.parkit.parkingsystem.service.InteractiveShell.loadInterface(InteractiveShell.java:28) [classes/:?]
+	at com.parkit.parkingsystem.App.main(App.java:14) [classes/:?]
+2020-12-04 15:49:56 [main] INFO  App:13 - Initializing Parking System
+2020-12-04 15:49:56 [main] INFO  InteractiveShell:14 - App initialized!!!
+2020-12-04 15:50:01 [main] INFO  DataBaseConfig:18 - Create DB connection
+2020-12-04 15:50:02 [main] INFO  DataBaseConfig:78 - Closing Result Set
+2020-12-04 15:50:02 [main] INFO  DataBaseConfig:67 - Closing Prepared Statement
+2020-12-04 15:50:02 [main] INFO  DataBaseConfig:56 - Closing DB connection
+2020-12-04 15:50:11 [main] INFO  App:13 - Initializing Parking System
+2020-12-04 15:50:11 [main] INFO  InteractiveShell:14 - App initialized!!!
+2020-12-04 16:14:56 [main] INFO  App:13 - Initializing Parking System
+2020-12-04 16:14:56 [main] INFO  InteractiveShell:14 - App initialized!!!
+2020-12-04 16:15:43 [main] INFO  App:13 - Initializing Parking System
+2020-12-04 16:15:43 [main] INFO  InteractiveShell:14 - App initialized!!!
+2020-12-08 13:19:16 [main] INFO  App:13 - Initializing Parking System
+2020-12-08 13:19:16 [main] INFO  InteractiveShell:14 - App initialized!!!
