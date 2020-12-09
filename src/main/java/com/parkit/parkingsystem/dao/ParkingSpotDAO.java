@@ -10,12 +10,28 @@ import org.apache.logging.log4j.Logger;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
-
+/**
+ * 
+ * ParkingSpotDAO is a class to verify the number of parking spots available and their state 
+ * 
+ * 
+ * @author OpenClassRoom
+ * @version V1.0
+ *
+ */
 public class ParkingSpotDAO {
     private static final Logger logger = LogManager.getLogger("ParkingSpotDAO");
 
     public DataBaseConfig dataBaseConfig = new DataBaseConfig();
-
+	/**
+	 * 
+	 * @author OpenClassRoom
+	 * @version V1.0
+	 * @since V1.0
+	 * 
+	 * @see this function takes the number of the next parking spot
+	 * @return the parking spot available or the -1 if there is no one                   
+	 */
     public int getNextAvailableSlot(ParkingType parkingType){
         Connection con = null;
         int result=-1;
@@ -36,9 +52,17 @@ public class ParkingSpotDAO {
         }
         return result;
     }
-
+	/**
+	 * 
+	 * @author OpenClassRoom
+	 * @version V1.0
+	 * @since V1.0
+	 * 
+	 * @see this function updates the state of the parking spot
+	 * @return true if the operation could be done                   
+	 */
     public boolean updateParking(ParkingSpot parkingSpot){
-        //update the availability fo that parking slot
+        //update the availability for that parking slot
         Connection con = null;
         try {
             con = dataBaseConfig.getConnection();

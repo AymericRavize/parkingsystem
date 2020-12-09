@@ -2,7 +2,15 @@ package com.parkit.parkingsystem.model;
 
 import java.util.Calendar;
 import java.util.Date;
-
+/**
+ * 
+ * Ticket is a class that defines the object with the same name and its functions allowing to interact with its variables   
+ * 
+ * 
+ * @author OpenClassRoom
+ * @version V1.0
+ *
+ */
 public class Ticket {
     private int id;
     private ParkingSpot parkingSpot;

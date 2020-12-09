@@ -12,13 +12,29 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.Timestamp;
-
+/**
+ * 
+ * TicketDAO is a class to manage the tickets in the database  
+ * 
+ * 
+ * @author OpenClassRoom
+ * @version V1.0
+ *
+ */
 public class TicketDAO {
 
     private static final Logger logger = LogManager.getLogger("TicketDAO");
 
     public DataBaseConfig dataBaseConfig = new DataBaseConfig();
-
+	/**
+	 * 
+	 * @author OpenClassRoom
+	 * @version V1.0
+	 * @since V1.0
+	 * 
+	 * @see this function saves the ticket in the database
+	 * @return true if the ticket is saved                  
+	 */
     public boolean saveTicket(Ticket ticket){
         Connection con = null;
         try {
@@ -39,7 +55,15 @@ public class TicketDAO {
             return false;
         }
     }
-
+	/**
+	 * 
+	 * @author OpenClassRoom
+	 * @version V1.0
+	 * @since V1.0
+	 * 
+	 * @see this function searches the ticket related to the vehicule plate
+	 * @return the corresponding ticket                  
+	 */
     public Ticket getTicket(String vehicleRegNumber) {
         Connection con = null;
         Ticket ticket = null;
@@ -70,7 +94,15 @@ public class TicketDAO {
             return ticket;
         }
     }
-
+	/**
+	 * 
+	 * @author OpenClassRoom
+	 * @version V1.0
+	 * @since V1.0
+	 * 
+	 * @see this function updates the ticket
+	 * @return true if ticket is updated                 
+	 */
     public boolean updateTicket(Ticket ticket) {
         Connection con = null;
         try {
@@ -88,7 +120,15 @@ public class TicketDAO {
         }
         return false;
     }
-    // recuperation du nombre de tyquet par d'une plaque d imatriculation
+	/**
+	 * 
+	 * @author OpenClassRoom
+	 * @version V1.0
+	 * @since V1.0
+	 * 
+	 * @see this function calculate the number of tickets concerning a given car plate
+	 * @return number of tickets                 
+	 */
     public int getNbTiket(String vehicleRegNumber) {
     	
     	int nbTiket=0;

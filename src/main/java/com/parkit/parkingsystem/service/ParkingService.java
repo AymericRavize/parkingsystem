@@ -10,7 +10,15 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 import java.util.Date;
-
+/**
+ * 
+ * ParkingService is a class to manage the vehicules   
+ * 
+ * 
+ * @author OpenClassRoom,Ravizé Aymeric
+ * @version V1.1
+ *
+ */
 public class ParkingService {
 
     private static final Logger logger = LogManager.getLogger("ParkingService");
@@ -20,7 +28,7 @@ public class ParkingService {
     private InputReaderUtil inputReaderUtil;
     private ParkingSpotDAO parkingSpotDAO;
     private  TicketDAO ticketDAO;
-    // inTime et outTime permete de pouvoir axer a c valeur pour pouvoir efectuier des verification
+    // inTime and outTime enables the access to these values to carry out verifications
     public Date inTime;
     public Date outTime;
 
@@ -30,7 +38,15 @@ public class ParkingService {
         this.ticketDAO = ticketDAO;
     }
 
-    
+	/**
+	 * 
+	 * @author OpenClassRoom
+	 * @version V1.0
+	 * @since V1.0
+	 * 
+	 * @see this function manages the saving of a new vehicule in the database
+	 *                 
+	 */  
     public void processIncomingVehicle() {
         try{
             ParkingSpot parkingSpot = getNextParkingNumberIfAvailable();
@@ -55,12 +71,29 @@ public class ParkingService {
             logger.error("Unable to process incoming vehicle",e);
         }
     }
-
+	/**
+	 * 
+	 * @author OpenClassRoom
+	 * @version V1.0
+	 * @since V1.0
+	 * 
+	 * @see this function asks the enter of the user's car plate 
+	 * @return  a Registration Number wrote        
+	 */
     private String getVehichleRegNumber() throws Exception {
         System.out.println("Please type the vehicle registration number and press enter key");
         return inputReaderUtil.readVehicleRegistrationNumber();
     }
-
+	/**
+	 * 
+	 * @author OpenClassRoom
+	 * @version V1.0
+	 * @since V1.0
+	 * 
+	 * @see this function search which parking spot is available
+	 * @return   the available parking spot and 0 if there is not  
+	 *       
+	 */
     public ParkingSpot getNextParkingNumberIfAvailable(){
         int parkingNumber=0;
         ParkingSpot parkingSpot = null;
@@ -70,7 +103,7 @@ public class ParkingService {
             if(parkingNumber > 0){
                 parkingSpot = new ParkingSpot(parkingNumber,parkingType, true);
             }else{
-                throw new Exception("Error fetching parking number from DB. Parking slots might be full");//ici?
+                throw new Exception("Error fetching parking number from DB. Parking slots might be full");
             }
         }catch(IllegalArgumentException ie){
             logger.error("Error parsing user input for type of vehicle", ie);
@@ -82,7 +115,16 @@ public class ParkingService {
         }
         
     }
-
+	/**
+	 * 
+	 * @author OpenClassRoom
+	 * @version V1.0
+	 * @since V1.0
+	 * 
+	 * @see this function asks what vehicule type will be saved
+	 * @return   the vehicule type to save  
+	 *       
+	 */
     private ParkingType getVehichleType(){
         System.out.println("Please select vehicle type from menu");
         System.out.println("1 CAR");
@@ -101,7 +143,15 @@ public class ParkingService {
             }
         }
     }
-
+	/**
+	 * 
+	 * @author OpenClassRoom
+	 * @version V1.0
+	 * @since V1.0
+	 * 
+	 * @see this function manage the vehicule exit    
+	 *       
+	 */
     public void processExitingVehicle() {
         try{
             String vehicleRegNumber = getVehichleRegNumber();

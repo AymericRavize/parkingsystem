@@ -12,7 +12,15 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
 import java.util.Date;
-
+/**
+ * 
+ * FareCalculatorServiceTest is a test class to check if the calculate price is true   
+ * 
+ * 
+ * @author OpenClassRoom,Ravizé Aymeric
+ * @version V1.1
+ *
+ */
 public class FareCalculatorServiceTest {
 
     private static FareCalculatorService fareCalculatorService;

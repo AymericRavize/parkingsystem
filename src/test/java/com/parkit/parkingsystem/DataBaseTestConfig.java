@@ -9,7 +9,15 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.sql.*;
 import java.util.Properties;
-
+/**
+ * 
+ * DataBaseTestConfig is a class for use a data base test   
+ * 
+ * 
+ * @author OpenClassRoom,Ravizé Aymeric
+ * @version V1.1
+ *
+ */
 public class DataBaseTestConfig extends DataBaseConfig {
 
     private static final Logger logger = LogManager.getLogger("DataBaseTestConfig");
@@ -20,7 +28,7 @@ public class DataBaseTestConfig extends DataBaseConfig {
 	 * @since V1.0
 	 * 
 	 * @see this function opens database connection by calling a configuration document that countain the identification informations related to this one
-	 *                  
+	 * @return a data base conection                  
 	 */
     public Connection getConnection() throws ClassNotFoundException, SQLException {
         logger.info("Create DB connection");

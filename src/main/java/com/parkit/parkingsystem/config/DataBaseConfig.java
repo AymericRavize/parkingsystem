@@ -9,11 +9,27 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.sql.*;
 import java.util.Properties;
-
+/**
+ * 
+ * DataBaseConfig is a class to use a data base 
+ * 
+ * 
+ * @author OpenClassRoom,Ravizé Aymeric
+ * @version V1.1
+ *
+ */
 public class DataBaseConfig {
 
     private static final Logger logger = LogManager.getLogger("DataBaseConfig");
-
+	/**
+	 * 
+	 * @author OpenClassRoom
+	 * @version V1.0
+	 * @since V1.1
+	 * 
+	 * @see this function opens database connection by calling a configuration document that countain the identification informations related to this one
+	 * @return a data base connection                  
+	 */
     public Connection getConnection() throws ClassNotFoundException, SQLException {
         logger.info("Create DB connection");
         Class.forName("com.mysql.cj.jdbc.Driver");  
@@ -44,7 +60,15 @@ public class DataBaseConfig {
         return DriverManager.getConnection(url,username,password);
         
     }
-
+	/**
+	 * 
+	 * @author OpenClassRoom
+	 * @version V1.0
+	 * @since V1.0
+	 * 
+	 * @see this function closes Data Base connection
+	 *                  
+	 */
     public void closeConnection(Connection con){
         if(con!=null){
             try {
@@ -55,7 +79,15 @@ public class DataBaseConfig {
             }
         }
     }
-
+	/**
+	 * 
+	 * @author OpenClassRoom
+	 * @version V1.0
+	 * @since V1.0
+	 * 
+	 * @see this function closes a prepared request
+	 *                  
+	 */
     public void closePreparedStatement(PreparedStatement ps) {
         if(ps!=null){
             try {
@@ -66,7 +98,15 @@ public class DataBaseConfig {
             }
         }
     }
-
+	/**
+	 * 
+	 * @author OpenClassRoom
+	 * @version V1.0
+	 * @since V1.0
+	 * 
+	 * @see this function closes a result of request
+	 *                  
+	 */
     public void closeResultSet(ResultSet rs) {
         if(rs!=null){
             try {

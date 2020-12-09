@@ -1,5 +1,13 @@
 package com.parkit.parkingsystem.constants;
-
+/**
+ * 
+ * DBConstants is a class with the prepared requests ready to be used in the rest of the application 
+ * 
+ * 
+ * @author OpenClassRoom,Ravizé Aymeric
+ * @version V1.1
+ *
+ */
 public class DBConstants {
 
     public static final String GET_NEXT_PARKING_SPOT = "select min(PARKING_NUMBER) from parking where AVAILABLE = true and TYPE = ?";

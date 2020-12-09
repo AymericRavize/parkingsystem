@@ -1,6 +1,6 @@
 package com.parkit.parkingsystem;
 
-//import com.hemebiotech.analytics.main;
+
 import com.parkit.parkingsystem.config.DataBaseConfig;
 import com.parkit.parkingsystem.constants.DBConstants;
 import com.parkit.parkingsystem.constants.ParkingType;
@@ -53,7 +53,7 @@ public class ParkingDataBaseIT {
 	 * 
 	 * @author OpenClassRoom
 	 * @version V1.0
-	 * @since V1.1
+	 * @since V1.0
 	 * 
 	 * @see this function is called to initialize the variables used in the class
 	 *                  
@@ -72,7 +72,7 @@ public class ParkingDataBaseIT {
 	 * 
 	 * @author OpenClassRoom
 	 * @version V1.0
-	 * @since V1.1
+	 * @since V1.0
 	 * 
 	 * @see this function is called before every test to simulate the returned values through the mock and clear the database between each test
 	 *                  

@@ -1,7 +1,15 @@
 package com.parkit.parkingsystem.model;
 
 import com.parkit.parkingsystem.constants.ParkingType;
-
+/**
+ * 
+ * ParkingSpot is a class that defines the object with the same name and its functions allowing to interact with its variables   
+ * 
+ * 
+ * @author OpenClassRoom
+ * @version V1.0
+ *
+ */
 public class ParkingSpot {
     private int number;
     private ParkingType parkingType;

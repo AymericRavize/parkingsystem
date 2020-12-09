@@ -5,11 +5,27 @@ import com.parkit.parkingsystem.dao.TicketDAO;
 import com.parkit.parkingsystem.util.InputReaderUtil;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-
+/**
+ * 
+ * InteractiveShell allows to generate the application menu and to call functions related to the user choices
+ * 
+ * 
+ * @author OpenClassRoom
+ * @version V1.0
+ *
+ */
 public class InteractiveShell {
 
     private static final Logger logger = LogManager.getLogger("InteractiveShell");
-
+	/**
+	 * 
+	 * @author OpenClassRoom
+	 * @version V1.0
+	 * @since V1.0
+	 * 
+	 * @see this function creates objects necessary to the functioning of the application and calls the functions in relation to the user choices
+	 *                 
+	 */
     public static void loadInterface(){
         logger.info("App initialized!!!");
         System.out.println("Welcome to Parking System!");
@@ -22,7 +38,7 @@ public class InteractiveShell {
 
         while(continueApp){
             loadMenu();
-            int option = inputReaderUtil.readSelection();//déclarer dans la boucle ?
+            int option = inputReaderUtil.readSelection();
             switch(option){
                 case 1: {
                     parkingService.processIncomingVehicle();
@@ -41,7 +57,15 @@ public class InteractiveShell {
             }
         }
     }
-
+	/**
+	 * 
+	 * @author OpenClassRoom
+	 * @version V1.0
+	 * @since V1.0
+	 * 
+	 * @see this function read a choice in the user interface
+	 *                 
+	 */
     private static void loadMenu(){
         System.out.println("Please select an option. Simply enter the number to choose an action");
         System.out.println("1 New Vehicle Entering - Allocate Parking Space");
