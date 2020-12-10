@@ -40,7 +40,7 @@ public class DataBaseTestConfig extends DataBaseConfig {
         final Properties prop = new Properties();
         InputStream input = null;
         try {
-			input = new FileInputStream("src/test/java/resources/TestConfig.properties");
+			input = new FileInputStream("src/test/java/resources/ConfigTest.properties");
 			prop.load(input);
 	        url =prop.getProperty("db.url");
 	        username =prop.getProperty("db.username");

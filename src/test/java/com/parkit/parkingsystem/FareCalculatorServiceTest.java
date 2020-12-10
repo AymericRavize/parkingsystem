@@ -5,11 +5,17 @@ import com.parkit.parkingsystem.constants.ParkingType;
 import com.parkit.parkingsystem.model.ParkingSpot;
 import com.parkit.parkingsystem.model.Ticket;
 import com.parkit.parkingsystem.service.FareCalculatorService;
+import com.parkit.parkingsystem.util.InputReaderUtil;
+
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.params.ParameterizedTest;
+import org.junit.jupiter.params.provider.ValueSource;
+import org.mockito.Mock;
 
 import static org.junit.jupiter.api.Assertions.*;
+import static org.mockito.Mockito.when;
 
 import java.util.Date;
 /**
@@ -24,7 +30,7 @@ import java.util.Date;
 public class FareCalculatorServiceTest {
 
     private static FareCalculatorService fareCalculatorService;
-    private Ticket ticket;
+    private  Ticket ticket;
 	/**
 	 * 
 	 * @author OpenClassRoom
@@ -203,6 +209,78 @@ public class FareCalculatorServiceTest {
         ticket.setParkingSpot(parkingSpot);
         fareCalculatorService.calculateFare(ticket);
         assertEquals( (24 * Fare.CAR_RATE_PER_HOUR) , ticket.getPrice());
+    }
+	/**
+	 * 
+	 * @author Ravizé Aymeric
+	 * @version V1.0
+	 * @since V1.1
+	 * 
+	 * @see this function test if a price of tiket is corecte if less than 30 minutes 
+	 *                  
+	 */
+    @Test
+    public void calculateFareCarWithLessThanThirtyMinutesParkingTime(){
+        Date inTime = new Date();
+        Date outTime=new Date(); 
+        inTime.setTime(outTime.getTime() - (29 * 60 * 1000));
+        
+        ParkingSpot parkingSpot = new ParkingSpot(1, ParkingType.CAR,false);
+
+        ticket.setInTime(inTime);
+        ticket.setOutTime(outTime);
+        ticket.setParkingSpot(parkingSpot);
+        fareCalculatorService.calculateFare(ticket);
+        assertEquals(0, ticket.getPrice());
+    }
+	/**
+	 * 
+	 * @author Ravizé Aymeric
+	 * @version V1.0
+	 * @since V1.1
+	 * 
+	 * @see this function test if a price of tiket is corecte for car
+	 *                  
+	 */
+	@ParameterizedTest(name = "{0} heure car test")
+	@ValueSource(ints = { 29,60,4 * 60,24 * 60 })
+    public void calculateFareCarTime(int time){
+        Date inTime = new Date();
+        Date outTime=new Date(); 
+        inTime.setTime(outTime.getTime() - (time * 60 * 1000));
+        
+        ParkingSpot parkingSpot = new ParkingSpot(1, ParkingType.CAR,false);
+
+        ticket.setInTime(inTime);
+        ticket.setOutTime(outTime);
+        ticket.setParkingSpot(parkingSpot);
+        fareCalculatorService.calculateFare(ticket);
+        assertEquals((time/60 * Fare.CAR_RATE_PER_HOUR), ticket.getPrice());
+    }
+	
+	/**
+	 * 
+	 * @author Ravizé Aymeric
+	 * @version V1.0
+	 * @since V1.1
+	 * 
+	 * @see this function test if a price of tiket is corecte for bike
+	 *                  
+	 */
+	@ParameterizedTest(name = "{0} heure bike test")
+	@ValueSource(ints = { 29,60,4 * 60,24 * 60 })
+    public void calculateFareBikeTime(int time){
+        Date inTime = new Date();
+        Date outTime=new Date(); 
+        inTime.setTime(outTime.getTime() - (time * 60 * 1000));
+        
+        ParkingSpot parkingSpot = new ParkingSpot(1, ParkingType.BIKE,false);
+
+        ticket.setInTime(inTime);
+        ticket.setOutTime(outTime);
+        ticket.setParkingSpot(parkingSpot);
+        fareCalculatorService.calculateFare(ticket);
+        assertEquals((time/60 * Fare.BIKE_RATE_PER_HOUR), ticket.getPrice());
     }
 
 }
