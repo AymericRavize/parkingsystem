@@ -45,12 +45,13 @@ public class ParkingSpotDAO {
             }
             dataBaseConfig.closeResultSet(rs);
             dataBaseConfig.closePreparedStatement(ps);
+            return result;
         }catch (Exception ex){
             logger.error("Error fetching next available slot",ex);
+            return -1;
         }finally {
             dataBaseConfig.closeConnection(con);
         }
-        return result;
     }
 	/**
 	 * 

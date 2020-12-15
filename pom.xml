@@ -42,6 +42,13 @@
             <version>5.3.2</version>
             <scope>test</scope>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-params -->
+		<dependency>
+   			 <groupId>org.junit.jupiter</groupId>
+    		<artifactId>junit-jupiter-params</artifactId>
+   			 <version>5.3.2</version>
+    		<scope>test</scope>
+		</dependency>
         <dependency>
             <groupId>org.mockito</groupId>
             <artifactId>mockito-junit-jupiter</artifactId>
@@ -64,7 +71,6 @@
 		    <artifactId>findbugs-maven-plugin</artifactId>
 		    <version>3.0.5</version>
 		</dependency>
-        
     </dependencies>
 <build>
         <plugins>
@@ -152,6 +158,17 @@
                 <artifactId>maven-surefire-report-plugin</artifactId>
                 <version>2.22.2</version>
             </plugin>
+            <plugin>
+        <groupId>org.codehaus.mojo</groupId>
+        <artifactId>findbugs-maven-plugin</artifactId>
+        <version>3.0.5</version>
+        <configuration>
+          <xmlOutput>true</xmlOutput>
+          <excludeFilterFile>${project.build.outputDirectory}/exclude.xml</excludeFilterFile>
+          <xmlOutputDirectory>target/site</xmlOutputDirectory>
+        </configuration>
+      </plugin>
         </plugins>
     </reporting>
+
 </project>

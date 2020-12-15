@@ -105,8 +105,8 @@ public class ParkingDataBaseIT {
         assertEquals(1, ticket.getParkingSpot().getId());
         assertEquals(ParkingType.CAR, ticket.getParkingSpot().getParkingType());
         assertEquals(false, ticket.getParkingSpot().isAvailable());
-        assertEquals(0, ticket.getPrice());
-        assertEquals(parkingService.inTime.getDate(), ticket.getInTime().getDate());
+        assertEquals(0, ticket.getPrice());      
+        assertEquals((long)parkingService.inTime.getTime()/1000, (long)ticket.getInTime().getTime()/1000,1);
         assertEquals(null, ticket.getOutTime());
 
     }
@@ -127,7 +127,7 @@ public class ParkingDataBaseIT {
         parkingService.processExitingVehicle();
         Ticket ticket = ticketDAO.getTicket("ABCDEF");
         assertEquals(0, ticket.getPrice());
-        assertEquals(parkingService.outTime.getDate(), ticket.getOutTime().getDate());
+        assertEquals((long)parkingService.outTime.getTime()/1000,(long)ticket.getOutTime().getTime()/1000,1);
     }
     
     /**

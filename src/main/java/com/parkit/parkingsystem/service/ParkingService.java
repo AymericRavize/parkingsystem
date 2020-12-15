@@ -55,12 +55,12 @@ public class ParkingService {
                 parkingSpot.setAvailable(false);
                 parkingSpotDAO.updateParking(parkingSpot);//allot this parking space and mark it's availability as false
 
-                inTime = new Date();
+                this.inTime = new Date();
                 Ticket ticket = new Ticket();
                 ticket.setParkingSpot(parkingSpot);
                 ticket.setVehicleRegNumber(vehicleRegNumber);
                 ticket.setPrice(0);
-                ticket.setInTime(inTime);
+                ticket.setInTime(this.inTime);
                 ticket.setOutTime(null);
                 ticketDAO.saveTicket(ticket);
                 System.out.println("Generated Ticket and saved in DB");
@@ -156,8 +156,13 @@ public class ParkingService {
         try{
             String vehicleRegNumber = getVehichleRegNumber();
             Ticket ticket = ticketDAO.getTicket(vehicleRegNumber);
-            outTime = new Date();
-            ticket.setOutTime(outTime);
+            this.outTime = new Date();
+            /*this.outTime.setTime(((long) this.outTime.getTime() / 1000) * 1000);
+            System.out.println("////////////////////");
+            System.out.println(this.outTime.getTime());
+            System.out.println("////////////////////");System.out.println("////////////////////");System.out.println("////////////////////");System.out.println("////////////////////");
+*/
+            ticket.setOutTime(this.outTime);
             fareCalculatorService.calculateFare(ticket);
             if(ticketDAO.updateTicket(ticket)) {
                 ParkingSpot parkingSpot = ticket.getParkingSpot();
